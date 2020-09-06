@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New Events</title>
+</head>
+<body>
+<form action="#" th:action="@{/junitForm/regEvent}" method="post" th:object="${event}">
+    <p th:if="${#fields.hasErrors('eventName')}" th:errors="*{eventName}">eventName Error</p>
+    <p th:if="${#fields.hasErrors('eventDescription')}" th:errors="*{eventDescription}">eventDescription Error</p>
+    <p th:if="${#fields.hasErrors('eventCount')}" th:errors="*{eventCount}">eventCount Error</p>
+
+    <label for="eventName">eventName</label>
+    <input type="text" id="eventName" th:title="eventName" th:field="*{eventName}">
+    <br>
+    <label for="eventDescription">eventDescription</label>
+    <input type="text" id="eventDescription" th:title="eventDescription" th:field="*{eventDescription}">
+    <br>
+    <label for="eventCount">eventCount</label>
+    <input type="text" id="eventCount" th:title="eventCount" th:field="*{eventCount}">
+    <br>
+    <input type="submit" value="Create">
+</form>
+</body>
+</html>
