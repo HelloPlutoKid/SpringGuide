@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="826c6ed2-12ca-416c-a624-7379e3083fe7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/FileUpload/FilesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/fileUpload/fileUploadForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/FileUpload/FilesControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/junitFormTest/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/junitFormTest/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/junitFormTest/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/junitFormTest/FormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/templates/junit/FormTest/formEvent.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/junit/FormTest/formEvent.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iMOMAH6Wk4MF1NA3sfgfNMLwLH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mars\springGuide\demo\src\main\java\com\example\demo\FileUpload" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="826c6ed2-12ca-416c-a624-7379e3083fe7" name="Default Changelist" comment="" />
+      <created>1601713944124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601713944124</updated>
+      <workItem from="1601713945444" duration="588000" />
+      <workItem from="1601720275273" duration="5092000" />
+      <workItem from="1601799541388" duration="2786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2654" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601714518256">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2654" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/78.0.1842.1080/1920.0.2560.1400@1920.0.2560.1400" timestamp="1601714518256" />
+    <state x="2980" y="455" key="FileChooserDialogImpl" timestamp="1601714534865">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2980" y="455" key="FileChooserDialogImpl/78.0.1842.1080/1920.0.2560.1400@1920.0.2560.1400" timestamp="1601714534865" />
+  </component>
+</project>

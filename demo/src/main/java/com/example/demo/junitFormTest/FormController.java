@@ -24,9 +24,9 @@ public class FormController {
     public String formEvent(Model model) {
         // formEvent 화면에 Event 그릇 내려 주기
         model.addAttribute("event", new Event());
+        // 이벤트 등록 페이지
         return "/junit/FormTest/formEvent";
     }
-
 
     /***
      * 이벤트 정보 확인
@@ -59,15 +59,19 @@ public class FormController {
             for (ObjectError allError : bindingResult.getAllErrors()) {
                 System.out.println(allError.toString());
             }
+            // 에러가 발생했음으로 form으로 되돌아가기 만들기
             return "/junit/FormTest/formEvent";
         }
         eventList.add(event);
+        // 에러가 발생하지 않은 경우 리다이렉트로 통한 getmapping 처리
         return "redirect:/junitForm/events/list";
     }
 
     @GetMapping("/events/list")
     public String getEvents(Model model){
+        // getmapping으로 리스트가 처리된 페이지는 form 이벤트가 재발생하지 않는다.
         model.addAttribute(eventList);
+        // 이벤트 리스트 보여줄 페이지 리턴
         return "/junit/FormTest/eventList";
     }
 }

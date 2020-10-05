@@ -1,6 +1,5 @@
 package com.example.demo.junitFormTest;
 
-
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 
@@ -39,3 +38,11 @@ public class Event {
         this.eventDescription = eventDescription;
     }
 }
+/*
+*  validation 사용하기 위해서는 pom.xml 추가 요소
+<dependency>
+    <groupId>org.hibernate.validator</groupId>
+    <artifactId>hibernate-validator</artifactId>
+    <version>6.0.7.Final</version>
+</dependency>
+* */

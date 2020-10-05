@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>파일업로드</title>
+</head>
+
+<body>
+
+	<table>
+		<tr th:each="item : ${fList}">
+			<td th:text="${item.index}">${item.index}</td>
+			<td th:text="${item.fName}">${item.fName}</td>
+			<td th:text="${item.fSize}">${item.fSize}</td>
+		</tr>
+	</table>
+	
+	<div th:if="${msg!=null}" style="${msg!=null ? 'display:block' : 'display:none'}" >
+		<h1>파일 업로드 결과</h1>
+        <h2 th:text="${msg}">${msg}</h2>
+    </div>
+    
+    <h1>단일 파일 보내기</h1>
+    <form method="post" enctype="multipart/form-data" action="./fileUpload" th:action="@{/fileUpload}">
+        <label>file : </label>
+        <input type="file" name="file">
+        <label>name : </label>
+        <input type="text" name="name">
+        <input type="submit" value="upload">
+    </form>
+    
+    <h2>여러개 파일 보내기</h2>
+    <form method="post"  enctype='multipart/form-data' action="./multiFileUpload" th:action="@{/multiFileUpload}">
+        <label>files : </label>
+        <input type="file" name="files" multiple>
+        <label>name : </label>
+        <input type="text" name="name">
+        <input type="submit" value="upload">
+    </form>
+    
+</body>
+</html>

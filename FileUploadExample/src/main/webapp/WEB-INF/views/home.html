@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+</head>
+
+<body>
+
+    <P>  The time on the server is ${serverTime}. </P>
+
+    <div th:if="${msg}">
+        <h2 th:text="${msg}"></h2>
+    </div>
+    <form method="post" enctype="multipart/form-data" action="" th:action="@{/Files/file}">
+        <label>file : </label>
+        <input type="file" name="file">
+        <input type="submit" value="upload">
+    </form>
+</body>
+
+</html>

@@ -6,6 +6,7 @@
 </head>
 <body>
 <form action="#" th:action="@{/junitForm/regEvent}" method="post" th:object="${event}">
+    <!--  이벤트 바인딩 에러시 에러 처리 부분  -->
     <p th:if="${#fields.hasErrors('eventName')}" th:errors="*{eventName}">eventName Error</p>
     <p th:if="${#fields.hasErrors('eventDescription')}" th:errors="*{eventDescription}">eventDescription Error</p>
     <p th:if="${#fields.hasErrors('eventCount')}" th:errors="*{eventCount}">eventCount Error</p>
